@@ -6,7 +6,7 @@ import (
 )
 
 func TestNewPasswordInitializer(t *testing.T) {
-	inPass := &Password{
+	inPass := &password{
 		8,
 		false,
 		"test",
