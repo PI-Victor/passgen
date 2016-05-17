@@ -3,7 +3,10 @@ Passgen
 
 [![CircleCI](https://circleci.com/gh/PI-Victor/passgen/tree/master.svg?style=svg)](https://circleci.com/gh/PI-Victor/passgen/tree/master)
 
-*Opinionated* random password generator package for go applications.
+[![GoDoc](https://godoc.org/github.com/PI-Victor/passgen?status.svg)](http://godoc.org/github.com/PI-Victor/passgen)
+
+
+*Opinionated* random password and token generator package for go applications.
 
 Creates a random password that:  
 * is not based on a time event
@@ -49,7 +52,6 @@ becomes:
 7h!5/!5+My\P455W0rd
 ```
 
-
 the mappings are:
 ```
 a:4
@@ -59,7 +61,6 @@ i:!
 s:5
 t:7
 e:3
-
 ```
 
 * NOTE: if the length of the desired password is bigger than the length of the word, it
