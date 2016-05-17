@@ -1,6 +1,8 @@
 Passgen
 ---
 
+[![CircleCI](https://circleci.com/gh/PI-Victor/passgen/tree/master.svg?style=svg)](https://circleci.com/gh/PI-Victor/passgen/tree/master)
+
 *Opinionated* random password generator package for go applications.
 
 Creates a random password that:  
